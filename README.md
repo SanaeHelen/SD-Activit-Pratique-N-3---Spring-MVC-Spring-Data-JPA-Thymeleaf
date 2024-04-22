@@ -1,6 +1,6 @@
 # SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf
 
-Partie 1 : https://www.youtube.com/watch?v=jDm-q-jEbiA
+Partie 1 :
 
 Créer une application Web JEE basée sur Spring MVC, Thylemeaf et Spring Data JPA qui permet de gérer les patients.
 ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/fd628ae0-7a5a-444d-9d4b-1a4071ff9ce6)
@@ -41,13 +41,35 @@ L'application doit permettre les fonctionnalités suivantes :
       
     
     
+- Faire la pagination :
+  
+   - La migration ver Mysql Database:
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/9642b5ee-0f54-4900-9de7-aa2289183fd8)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/f8c55fe0-fdb4-4da1-b771-40ed50bf97fd)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/23562edf-29c4-4eca-8a2b-67febfef763a)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/1b8b78ae-3caf-4e7c-83e0-33fdab096159)
+  
+   - La classe PatientContoller:
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/7b282cdd-a8e4-4fb5-832c-05c4fb3bc313)
+     
+   - le fichier html :
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d2d3ea2f-9a35-4b9f-ab1b-bf668f0a9bcf)
+     
+   - L'affichage:
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/4e4010f8-b747-4b2a-902e-3364beb24195)
+     
+     
+ 
+  
+     
 
-
-       
-Faire la pagination
 Chercher les patients
 Supprimer un patient
 Faire des améliorations supplémentaires
-Partie 2  : https://www.youtube.com/watch?v=eoBE745lDE0
+Partie 2  : 
 Créer une page template
 Faire la validation des formulaires

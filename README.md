@@ -48,6 +48,6 @@ Faire la pagination
 Chercher les patients
 Supprimer un patient
 Faire des améliorations supplémentaires
-Partie 2  : https://www.youtube.com/watch?v=eoBE745lDE0
+Partie 2  : 
 Créer une page template
 Faire la validation des formulaires

@@ -1,6 +1,6 @@
 # SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf
 
-Partie 1 : https://www.youtube.com/watch?v=jDm-q-jEbiA
+Partie 1 :
 
 Créer une application Web JEE basée sur Spring MVC, Thylemeaf et Spring Data JPA qui permet de gérer les patients.
 ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/fd628ae0-7a5a-444d-9d4b-1a4071ff9ce6)

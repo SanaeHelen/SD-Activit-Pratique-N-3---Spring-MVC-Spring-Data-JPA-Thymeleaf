@@ -30,4 +30,11 @@ public class PatientController {
         model.addAttribute("keyword",kw);
         return "patients";
     }
+
+    @GetMapping("/delete")
+    public String delete(Long id){
+        patientRepository.deleteById(id);
+        return "redirect:/index" ;
+    }
+
 }

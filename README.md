@@ -105,13 +105,31 @@ L'application doit permettre les fonctionnalités suivantes :
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3e27e2c8-bd72-434d-9158-6b2324d9bd86)
 
 
- 
+- Faire des améliorations supplémentaires :
+  
+   - Garder le mot-clé:
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/4a01278b-21bf-4a77-9534-f1bae658f378)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/91142e3b-bf42-4de0-905c-145e4ee5eeb7)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/b168e772-f0be-4d66-941b-acbcbb19bc59)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/6f05f43e-c1ca-4754-999e-e387d77c2213)
+
+
+   - Ajouter les icons:
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/74435d19-e8e3-4378-bfd6-96f50c6e2923)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/7931754c-cce3-4bf5-91ba-e3dca7c0e04f)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/24344347-4bbc-445d-9dcf-5e4b54924c33)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/40a000ed-6ad5-44b6-b541-80f7925ad921)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ef26e5e5-45ae-4a57-be08-7632915eead9)
+
+
   
      
 
 
 
-Faire des améliorations supplémentaires
+
 Partie 2  : 
 Créer une page template
 Faire la validation des formulaires

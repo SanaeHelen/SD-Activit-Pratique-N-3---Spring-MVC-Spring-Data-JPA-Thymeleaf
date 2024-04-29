@@ -86,13 +86,31 @@ L'application doit permettre les fonctionnalités suivantes :
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/e4154334-0dcf-4e90-bbbc-a23339f933ff)
 
 
+- Supprimer un patient :
+  
+   - La classe PatientContoller:
      
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/6e13ac2f-08e5-4eee-a73e-96ccf57e0bb3)
+
+
+   - le fichier html :
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/b3cde9c2-e5a4-4188-b21c-6f2e5f56edff)
+
+     
+   - L'affichage:
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/23deb1de-504f-4336-86c6-fe56e148784f)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/1772f81b-89fc-4047-a141-efb01a083586)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3e27e2c8-bd72-434d-9158-6b2324d9bd86)
+
+
  
   
      
 
 
-Supprimer un patient
+
 Faire des améliorations supplémentaires
 Partie 2  : 
 Créer une page template

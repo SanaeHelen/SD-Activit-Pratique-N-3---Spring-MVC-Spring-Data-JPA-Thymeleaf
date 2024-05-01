@@ -78,7 +78,8 @@ L'application doit permettre les fonctionnalités suivantes :
      
    - L'affichage:
      
-       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/4e4010f8-b747-4b2a-902e-3364beb24195)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/97193154-414e-4a4c-99b2-54df91216928)
+
 
 
 - Chercher les patients :

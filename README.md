@@ -101,8 +101,9 @@ L'application doit permettre les fonctionnalités suivantes :
      
    - L'affichage:
      
-       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/183ad782-80f0-4cc6-87fb-a0badbcf2765)
-       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/e4154334-0dcf-4e90-bbbc-a23339f933ff)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2f1c1e84-287a-476b-adcd-bed9e86ae690)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/6e062069-a74e-4ff8-80b9-73b62b7bc831)
+
 
 
 - Supprimer un patient :

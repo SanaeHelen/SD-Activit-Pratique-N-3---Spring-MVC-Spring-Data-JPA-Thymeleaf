@@ -28,8 +28,8 @@ public class HopitalApplication implements CommandLineRunner {
         patient.setId(null);
         patient.setNom("Mohammed");
         patient.setDateNaissance(new Date());
-        patient.setMalade(false);
-        patient.setScore(23);
+        patient.setMalade(true);
+        patient.setScore(123);
         // Enregistrement du patient dans la base de données
         patientRepository.save(patient);
 
@@ -42,7 +42,7 @@ public class HopitalApplication implements CommandLineRunner {
         Patient patient3= Patient.builder()
                 .nom("Anas")
                 .dateNaissance(new Date())
-                .score(56)
+                .score(156)
                 .malade(false)
                 .build();
         // Enregistrement du troisième patient dans la base de données
@@ -50,7 +50,7 @@ public class HopitalApplication implements CommandLineRunner {
 
 
         // Création et enregistrement d'un patient en une seule ligne
-        patientRepository.save(new Patient(null,"Hanan",new Date(),false, 26));
+        patientRepository.save(new Patient(null,"Hanan",new Date(),true, 126));
 
 
 

@@ -3,17 +3,32 @@
 Partie 1 :
 
 Créer une application Web JEE basée sur Spring MVC, Thylemeaf et Spring Data JPA qui permet de gérer les patients.
-![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/fd628ae0-7a5a-444d-9d4b-1a4071ff9ce6)
-![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/abc78006-7e53-4c58-b9d3-1b6986402e63)
-![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/28906a3d-ad38-404f-9395-0e6771acb8db)
-![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/0f498838-2b8c-4b41-8f78-c5a74ae98b87)
-![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/43c9494d-1b4f-41d3-8c7f-7a6db50a03fc)
-![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/b2c16b84-98e2-460c-8f65-d6c553bd7789)
-![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/fd14b613-099a-489f-8f71-3455c0f07592)
-![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/71b25b46-4883-401c-a244-389bd3cf9efb)
-![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/644a99cd-c892-4e73-859c-0ecf0a561940)
-![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/90b1ae52-bc36-448b-a787-f377f58a7e6c)
-![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/c32b0226-0c16-4577-ab2a-6836cae22658)
+ - Les dépendances :
+ 
+   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/fd628ae0-7a5a-444d-9d4b-1a4071ff9ce6)
+   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/abc78006-7e53-4c58-b9d3-1b6986402e63)
+   
+ - L'entité Patient:
+   
+   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/28906a3d-ad38-404f-9395-0e6771acb8db)
+
+ - L'interface PatientRepository :
+   
+   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/0f498838-2b8c-4b41-8f78-c5a74ae98b87)
+
+ - La création des patients dans la classe HopitalApplication :
+   
+   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/a19e5d53-3f71-41fe-865a-b0efdb94205c)
+   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/b2c16b84-98e2-460c-8f65-d6c553bd7789)
+   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/fd14b613-099a-489f-8f71-3455c0f07592)
+   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3b9d1213-abf8-47a2-96e0-d7159e041da4)
+
+ - L'utilisation de H2 Database:
+   
+   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/644a99cd-c892-4e73-859c-0ecf0a561940)
+   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/90b1ae52-bc36-448b-a787-f377f58a7e6c)
+   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/99d571a9-d638-480a-8e91-ba85db0ec9bd)
+
 
 
 
@@ -31,11 +46,13 @@ L'application doit permettre les fonctionnalités suivantes :
   
    - le fichier patients.html:
      
-        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/bf0434fd-56f4-46e0-abcc-c6e9f2091451)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2f3c1e8e-0eac-41f4-934f-160e3371444c)
+
 
    - L'affichage :
      
-       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/1c151eaf-f151-46b6-845d-43277643fd49)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/57e93650-29d2-47bd-8fc2-00bac5c221ae)
+
 
      
       
@@ -47,8 +64,9 @@ L'application doit permettre les fonctionnalités suivantes :
      
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/9642b5ee-0f54-4900-9de7-aa2289183fd8)
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/f8c55fe0-fdb4-4da1-b771-40ed50bf97fd)
-       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/23562edf-29c4-4eca-8a2b-67febfef763a)
-       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/1b8b78ae-3caf-4e7c-83e0-33fdab096159)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/46d8d454-df26-47e1-aaa9-ed53ce373e49)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/57f84c95-7454-4f86-9fb3-252606d00118)
+
   
    - La classe PatientContoller:
      
@@ -60,7 +78,8 @@ L'application doit permettre les fonctionnalités suivantes :
      
    - L'affichage:
      
-       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/4e4010f8-b747-4b2a-902e-3364beb24195)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/97193154-414e-4a4c-99b2-54df91216928)
+
 
 
 - Chercher les patients :
@@ -82,18 +101,79 @@ L'application doit permettre les fonctionnalités suivantes :
      
    - L'affichage:
      
-       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/183ad782-80f0-4cc6-87fb-a0badbcf2765)
-       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/e4154334-0dcf-4e90-bbbc-a23339f933ff)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2f1c1e84-287a-476b-adcd-bed9e86ae690)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/6e062069-a74e-4ff8-80b9-73b62b7bc831)
 
+
+
+- Supprimer un patient :
+  
+   - La classe PatientContoller:
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/6e13ac2f-08e5-4eee-a73e-96ccf57e0bb3)
+
+
+   - le fichier html :
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/dd0bf225-7f44-4c10-b56a-44a689d78fee)
 
      
+   - L'affichage:
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/cbe73239-7b5d-435d-90e5-9e2bd51562a3)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/887282e6-524d-4772-9d59-6cd14da1a77f)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/afc584e2-4a5d-4f8b-a663-5eb9e7730b16)
+
+
+
+- Faire des améliorations supplémentaires :
+  
+   - Garder le mot-clé:
  
+     - La methode delete:
+     
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/4a01278b-21bf-4a77-9534-f1bae658f378)
+       
+     - Le fichier html:
+       
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3566104b-841b-4979-b55e-7a839f2ff44d)
+     
+     - L'affichage :
+       
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/056714b6-843f-48b5-b421-1d81d4eaf325)
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/273bcd18-592d-450d-b808-4c94a88acd3a)
+
+
+   - Ajouter les icons:
+     
+      - Ajouter la dépendance de bootstrap-icons:
+     
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/74435d19-e8e3-4378-bfd6-96f50c6e2923)
+       
+     - Le fichier html:
+       
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/7931754c-cce3-4bf5-91ba-e3dca7c0e04f)
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/24344347-4bbc-445d-9dcf-5e4b54924c33)
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/40a000ed-6ad5-44b6-b541-80f7925ad921)
+     
+     - L'affichage :
+       
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/8e83aea0-5f9e-4d43-b25a-fe75d196721f)
+ 
+
+     
+       
+       
+       
+
+
+
   
      
 
 
-Supprimer un patient
-Faire des améliorations supplémentaires
+
+
 Partie 2  : 
 Créer une page template
 Faire la validation des formulaires

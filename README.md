@@ -175,5 +175,157 @@ L'application doit permettre les fonctionnalités suivantes :
 
 
 Partie 2  : 
-Créer une page template
-Faire la validation des formulaires
+
+ - Créer une page template :
+   
+    - L'ajout du dépendance thymeleaf layout dialect dans le fichier pom.xml :
+      
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/62a6b583-a7df-45cb-8bb3-1f134b947556)
+
+    - Le fichier template.html :
+
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/dfa13719-d6d3-4ff1-847f-234e84e7bb8c)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/0490e86b-027c-496e-8d86-200a37e561b3)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/04429114-14e5-4468-a7ea-056bf6b8f953)
+
+
+    - On va ajouter {layout:fragment="content1"} dans le fichier patient.html :
+
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/c88b0e55-2961-437b-930a-53d06521c5ac)
+
+    - L'affichage :
+      
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/235e3165-6ffb-4787-9837-89202f7d5e8a)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/f92b4bda-6925-4690-92b8-e6b8bcad1c9a)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/553b9789-88a5-4f32-90b4-2eddb56d6ae9)
+
+  - Nouveau Patient :
+
+    - Le fichier PatientController.java :
+        - La methode formPatients() pour ajouter un nouveau patient et renvoyer la vue formPatients :
+          
+             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/c3614cdb-8536-4e19-b3e5-10a0196ed655)
+           
+        - La methode save() pour sauvegarder le nouveau patient :
+          
+             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/1139091f-82a3-4df6-8b19-fe223f26c4ec)
+
+
+    - Le fichier formPatient.html :
+      
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/64ac10f0-4ca7-4800-b647-770b02bb6a95)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/31850d57-6537-4079-bf1d-c302ad24759a)
+
+
+    - L'affichage: 
+
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/b735fecc-4a2f-4163-abd8-3fb32fca0393)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/9f92e4c5-7829-43f9-9844-350e1901f779)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/52c641b4-0e0e-4bb2-8013-11b89197529c)
+
+
+      
+-Faire la validation des formulaires: 
+
+   - Ajout du dépendance Spring Boot Starter Validation:
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d4eb6198-4b05-4d1d-a2f2-312c100c6a90)
+     
+   - Ajout des annotations de validation dans l'entité Patient :
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/a9b08fba-774a-464c-9c4a-45e4a6b27e00)
+     
+   - Ajout de l'annotation "@Valid" dans la methode save() du fichier PatientController:
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/cca313c1-31fa-4d27-807c-0042bf19e65d)
+     
+   - Teste de validation :
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/8e761307-50f3-42ce-b2ba-c77dca6e1976)
+
+- Modification des données du patient :
+    - On va ajouter le button edit dans le fichier patient.html :
+      
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/cc00ce26-312e-42f1-b702-9701bff5cb92)
+  
+    - La methode editPatient() dans le fichier PatientController :
+      
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/b51cb665-15f1-4bf1-bda7-d9d110c23158)
+      
+    - La formulaire de modification dans le fichier editPatient.html :
+      
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/1a0633e7-3e58-4f07-a363-8bebdbb5cc9f)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d0bd717a-eca5-4645-aa01-f764235c461c)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/443aafc3-88e3-43b1-89e1-0609c7a39e67)
+      
+    - L'affichage : 
+         
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/7644031f-236a-428e-a59f-e4afc454d75e)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ea48217b-7062-487a-a957-b9a794fe986d)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ace11412-23b1-47e7-8744-a2996d4e7fde)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/00cbf085-e7d8-4d74-8109-1f368cce31e8)
+
+   - Quand on cherche un patient et puis on fait une modification on garde toujours le mot-clé:
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/0b2ffed3-fddc-4eeb-ba24-18b52916984f)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/13c0b732-9987-4e93-89ef-fdbdf5dc6d7a)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/b2d1dc95-71e9-4503-9760-7fc45068967d)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/dbf87ade-e650-4980-b904-afe2d1fa56f7)
+
+
+Partie 3 : 
+
+ -Sécurité avec Spring security  : 
+ 
+   - L'ajout du dépendance Spring Security :
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/f7872e35-424a-43a9-8bba-ef4be3650046)
+   - On redémarre l'application :
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/765c7c06-e883-4a9b-a41e-a408a1b2878e)
+   - Authentification avec le mot de passe généré :
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/77462770-4790-49c6-b539-a1bdac1c3fde)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/960c4c4b-0754-48f6-8cad-fbfe424ddd2f)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/17a1a228-5a29-43aa-a179-c9c7d8dc64c8)
+   - Personalisation de la configuration de sprinf security :
+       - Creation du classe SecurityConfig : cette méthode configure la sécurité de l'application pour que toutes les requêtes HTTP nécessitent une authentification. Cela signifie qu'aucune requête ne sera autorisée sans qu'un utilisateur soit préalablement authentifié.
+            
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ead74d40-0bee-4f69-af85-43ac3a1233b7)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/a24e2e20-e10b-4037-89b2-bdd8dedde99d)
+       - L'utilisaton d'une formulaire d'authentification :
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2a4c5122-79e8-40ba-8cbf-b51fe5507c54)
+       - Configuration un gestionnaire d'utilisateurs en mémoire avec trois utilisateurs :
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/9093ff1d-b719-4061-9e08-04267ff8322b)
+       - Encoder les mots de passe des utilisateurs avant de les stocker:
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ef266f43-e0f8-45b9-bcad-e4cc5c1fa27e)
+       - Affichage :
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/60f5611c-3360-4071-9876-d00d01b09068)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/591d07c9-ba77-470a-872d-06ef4d22db39)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/012187d3-8002-435f-bdb0-0928a0ef3917)
+
+            
+
+
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+      
+       
+
+
+
+

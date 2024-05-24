@@ -228,10 +228,26 @@ Partie 2  :
 -Faire la validation des formulaires: 
 
    - Ajout du dépendance Spring Boot Starter Validation:
-   - Ajout des annotations de validation dans l'entité Patient :
-   - Ajout de l'annotation "@Valid" dans la methode save() du fichier PatientController:
+     
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d4eb6198-4b05-4d1d-a2f2-312c100c6a90)
+     
+   - Ajout des annotations de validation dans l'entité Patient :
+     
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/a9b08fba-774a-464c-9c4a-45e4a6b27e00)
-       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/344ceb35-9914-4aa7-addb-ad431238ad06)
+     
+   - Ajout de l'annotation "@Valid" dans la methode save() du fichier PatientController:
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/cca313c1-31fa-4d27-807c-0042bf19e65d)
+     
+   - Teste de validation :
+     
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/8e761307-50f3-42ce-b2ba-c77dca6e1976)
+
+-Modification des données du patient : 
+       
+      
+       
+
+
 
 

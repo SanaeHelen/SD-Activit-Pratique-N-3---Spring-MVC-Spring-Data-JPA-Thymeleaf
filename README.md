@@ -243,7 +243,47 @@ Partie 2  :
      
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/8e761307-50f3-42ce-b2ba-c77dca6e1976)
 
--Modification des données du patient : 
+- Modification des données du patient :
+    - On va ajouter le button edit dans le fichier patient.html :
+      
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/cc00ce26-312e-42f1-b702-9701bff5cb92)
+  
+    - La methode editPatient() dans le fichier PatientController :
+      
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/b51cb665-15f1-4bf1-bda7-d9d110c23158)
+      
+    - La formulaire de modification dans le fichier editPatient.html :
+      
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/1a0633e7-3e58-4f07-a363-8bebdbb5cc9f)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d0bd717a-eca5-4645-aa01-f764235c461c)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/443aafc3-88e3-43b1-89e1-0609c7a39e67)
+      
+    - L'affichage : 
+         
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/7644031f-236a-428e-a59f-e4afc454d75e)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ea48217b-7062-487a-a957-b9a794fe986d)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ace11412-23b1-47e7-8744-a2996d4e7fde)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/00cbf085-e7d8-4d74-8109-1f368cce31e8)
+
+   - Quand on cherche un patient et puis on fait une modification on garde toujours le mot-clé:
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/0b2ffed3-fddc-4eeb-ba24-18b52916984f)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/13c0b732-9987-4e93-89ef-fdbdf5dc6d7a)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/b2d1dc95-71e9-4503-9760-7fc45068967d)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/dbf87ade-e650-4980-b904-afe2d1fa56f7)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
        
       
        

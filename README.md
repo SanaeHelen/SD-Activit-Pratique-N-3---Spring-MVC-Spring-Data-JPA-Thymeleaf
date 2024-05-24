@@ -266,6 +266,7 @@ Partie 2  :
         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/00cbf085-e7d8-4d74-8109-1f368cce31e8)
 
    - Quand on cherche un patient et puis on fait une modification on garde toujours le mot-clé:
+     
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/0b2ffed3-fddc-4eeb-ba24-18b52916984f)
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/13c0b732-9987-4e93-89ef-fdbdf5dc6d7a)
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/b2d1dc95-71e9-4503-9760-7fc45068967d)

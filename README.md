@@ -175,5 +175,13 @@ L'application doit permettre les fonctionnalités suivantes :
 
 
 Partie 2  : 
-Créer une page template
+
+ - Créer une page template :
+   
+    - L'ajout du dépendance thymeleaf-layout-dialect dans le fichier pom.xml :
+      
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/62a6b583-a7df-45cb-8bb3-1f134b947556)
+
+
+      
 Faire la validation des formulaires

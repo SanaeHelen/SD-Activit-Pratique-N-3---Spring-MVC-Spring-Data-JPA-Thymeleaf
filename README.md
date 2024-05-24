@@ -273,6 +273,43 @@ Partie 2  :
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/dbf87ade-e650-4980-b904-afe2d1fa56f7)
 
 
+Partie 3 : 
+
+ -Sécurité avec Spring security  : 
+ 
+   - L'ajout du dépendance Spring Security :
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/f7872e35-424a-43a9-8bba-ef4be3650046)
+   - On redémarre l'application :
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/765c7c06-e883-4a9b-a41e-a408a1b2878e)
+   - Authentification avec le mot de passe généré :
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/77462770-4790-49c6-b539-a1bdac1c3fde)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/960c4c4b-0754-48f6-8cad-fbfe424ddd2f)
+       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/17a1a228-5a29-43aa-a179-c9c7d8dc64c8)
+   - Personalisation de la configuration de sprinf security :
+       - Creation du classe SecurityConfig : cette méthode configure la sécurité de l'application pour que toutes les requêtes HTTP nécessitent une authentification. Cela signifie qu'aucune requête ne sera autorisée sans qu'un utilisateur soit préalablement authentifié.
+            
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ead74d40-0bee-4f69-af85-43ac3a1233b7)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/a24e2e20-e10b-4037-89b2-bdd8dedde99d)
+       - L'utilisaton d'une formulaire d'authentification :
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2a4c5122-79e8-40ba-8cbf-b51fe5507c54)
+       - Configuration un gestionnaire d'utilisateurs en mémoire avec trois utilisateurs :
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/9093ff1d-b719-4061-9e08-04267ff8322b)
+       - Encoder les mots de passe des utilisateurs avant de les stocker:
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ef266f43-e0f8-45b9-bcad-e4cc5c1fa27e)
+       - Affichage :
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/60f5611c-3360-4071-9876-d00d01b09068)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/591d07c9-ba77-470a-872d-06ef4d22db39)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/012187d3-8002-435f-bdb0-0928a0ef3917)
+
+            
+
+
+        
+        
+        
+
+
+
 
 
 

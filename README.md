@@ -333,8 +333,26 @@ Partie 3 :
              
             
 
-  - La methode Logout :
+  - L'operation Logout :
+      - L'ajout du formulaire de logout dans la page template :
+        
+           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/e2be2283-04b9-49ee-84ad-ed64bc63c2c8)
+        
+      - La redirection de l'utilisateur vers l'URL /index:
+        
+           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/5ccc02bc-a1f8-49e9-9fe0-3092b56db6a4)
 
+      - L'affichage :
+        
+           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/713f5b1b-2f65-409e-a802-340a71dd49c9)
+           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2ef56371-f95e-4fcb-a448-c16689be3e2f)
+
+   - Gestion des droits d'accés :
+   
+       
+
+       
+       
             
 
 

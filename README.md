@@ -278,13 +278,19 @@ Partie 3 :
  -Sécurité avec Spring security  : 
  
    - L'ajout du dépendance Spring Security :
+     
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/f7872e35-424a-43a9-8bba-ef4be3650046)
+    
    - On redémarre l'application :
+     
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/765c7c06-e883-4a9b-a41e-a408a1b2878e)
+     
    - Authentification avec le mot de passe généré :
+     
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/77462770-4790-49c6-b539-a1bdac1c3fde)
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/960c4c4b-0754-48f6-8cad-fbfe424ddd2f)
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/17a1a228-5a29-43aa-a179-c9c7d8dc64c8)
+     
    - Personalisation de la configuration de sprinf security :
        - Creation du classe SecurityConfig : cette méthode configure la sécurité de l'application pour que toutes les requêtes HTTP nécessitent une authentification. Cela signifie qu'aucune requête ne sera autorisée sans qu'un utilisateur soit préalablement authentifié.
             
@@ -309,6 +315,25 @@ Partie 3 :
             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/40efff75-fc34-4fd5-a8b2-5a733c3a9b61)
             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2cda5905-9671-427e-bf66-2114278f8d0a)
 
+
+  - Affichage du nom de l'utilisateur authentifié :
+    
+       - L'ajout du dépendance thymeleaf extras springsecurity dans le fichier pom.xml :
+         
+           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/99171b6f-c740-4070-af48-c16562cb1d73)
+         
+       - Modifications dans la page template :
+         
+           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/146aafc3-d443-492c-a5b7-5172e847c59b)
+         
+       - Affichage :
+         
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/0c0864b9-5ba2-485b-8600-42ceab627650)
+             
+             
+            
+
+  - La methode Logout :
 
             
 

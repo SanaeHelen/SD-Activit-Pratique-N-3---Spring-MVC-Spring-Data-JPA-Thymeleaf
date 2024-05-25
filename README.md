@@ -355,6 +355,7 @@ Partie 3 :
               Les URL commençant par /user/ sont accessibles uniquement aux utilisateurs ayant le rôle USER.
           - Gestion des exceptions :
               En cas de tentative d'accès à une ressource non autorisée, l'utilisateur sera redirigé vers une page /notAuthorized.
+            
               ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/26e3822c-ee7a-4336-aba7-2e098c05b6fd)
 
        - Conditionner l'affichage de certaines parties de l'interface utilisateur en fonction des autorisations de l'utilisateur : seul l'administrateur peut effectuer la suppression , la modification et l'ajout des patients.
@@ -366,8 +367,29 @@ Partie 3 :
 
 
          - Le fichier template.html :
-         - L'affichage : 
+           
               ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d93cf229-8be6-450d-830a-92671488cb04)
+           
+         - L'affichage : 
+
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3d804a79-7b1d-4cd8-a8c5-097ae1943c2f)
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/f79e2b35-7434-4fe4-9c98-06a0694e9c62)
+
+      - Gèrer les requêtes à l'URL /notAuthorized en renvoyant une page d'erreur :
+         - La classe SecurityController.java :
+           
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/32a22140-2895-4591-8133-73568221ac3a)
+
+         - Le fichier notAuthorized.html :
+           
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/1a5cc185-266a-4ef4-ad1d-ccdd050f26f3)
+
+         - L'affichage  : Si j'authentifie en tant que user1 et que je saisis l'URL http://localhost:8084/admin/delete, la page notAuthorized s'affiche.
+           
+             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d68e145c-e507-4b84-a79b-8f6419587f1b)
+             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/bbb267f2-3397-4fb6-9d8f-59f93894c447)
+
+
 
           
    

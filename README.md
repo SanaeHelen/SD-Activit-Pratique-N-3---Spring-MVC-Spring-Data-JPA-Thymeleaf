@@ -278,29 +278,125 @@ Partie 3 :
  -Sécurité avec Spring security  : 
  
    - L'ajout du dépendance Spring Security :
+     
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/f7872e35-424a-43a9-8bba-ef4be3650046)
+    
    - On redémarre l'application :
+     
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/765c7c06-e883-4a9b-a41e-a408a1b2878e)
+     
    - Authentification avec le mot de passe généré :
+     
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/77462770-4790-49c6-b539-a1bdac1c3fde)
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/960c4c4b-0754-48f6-8cad-fbfe424ddd2f)
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/17a1a228-5a29-43aa-a179-c9c7d8dc64c8)
+     
    - Personalisation de la configuration de sprinf security :
        - Creation du classe SecurityConfig : cette méthode configure la sécurité de l'application pour que toutes les requêtes HTTP nécessitent une authentification. Cela signifie qu'aucune requête ne sera autorisée sans qu'un utilisateur soit préalablement authentifié.
             
             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ead74d40-0bee-4f69-af85-43ac3a1233b7)
             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/a24e2e20-e10b-4037-89b2-bdd8dedde99d)
+     
        - L'utilisaton d'une formulaire d'authentification :
+         
             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2a4c5122-79e8-40ba-8cbf-b51fe5507c54)
+         
        - Configuration un gestionnaire d'utilisateurs en mémoire avec trois utilisateurs :
+         
             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/9093ff1d-b719-4061-9e08-04267ff8322b)
+         
        - Encoder les mots de passe des utilisateurs avant de les stocker:
+         
             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ef266f43-e0f8-45b9-bcad-e4cc5c1fa27e)
+         
        - Affichage :
+         
             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/60f5611c-3360-4071-9876-d00d01b09068)
-            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/591d07c9-ba77-470a-872d-06ef4d22db39)
-            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/012187d3-8002-435f-bdb0-0928a0ef3917)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/40efff75-fc34-4fd5-a8b2-5a733c3a9b61)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2cda5905-9671-427e-bf66-2114278f8d0a)
 
+
+  - Affichage du nom de l'utilisateur authentifié :
+    
+       - L'ajout du dépendance thymeleaf extras springsecurity dans le fichier pom.xml :
+         
+           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/99171b6f-c740-4070-af48-c16562cb1d73)
+         
+       - Modifications dans la page template :
+         
+           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/146aafc3-d443-492c-a5b7-5172e847c59b)
+         
+       - Affichage :
+         
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/0c0864b9-5ba2-485b-8600-42ceab627650)
+             
+             
+            
+
+  - L'operation Logout :
+      - L'ajout du formulaire de logout dans la page template :
+        
+           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/e2be2283-04b9-49ee-84ad-ed64bc63c2c8)
+        
+      - La redirection de l'utilisateur vers l'URL /index:
+        
+           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/5ccc02bc-a1f8-49e9-9fe0-3092b56db6a4)
+
+      - L'affichage :
+        
+           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/713f5b1b-2f65-409e-a802-340a71dd49c9)
+           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2ef56371-f95e-4fcb-a448-c16689be3e2f)
+
+   - Gestion des droits d'accés :
+       - Le fichier SecurityConfig.java:
+         
+          - Autorisation :
+              Les URL commençant par /admin/ sont accessibles uniquement aux utilisateurs ayant le rôle ADMIN.
+              Les URL commençant par /user/ sont accessibles uniquement aux utilisateurs ayant le rôle USER.
+          - Gestion des exceptions :
+              En cas de tentative d'accès à une ressource non autorisée, l'utilisateur sera redirigé vers une page /notAuthorized.
+            
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/26e3822c-ee7a-4336-aba7-2e098c05b6fd)
+
+       - Conditionner l'affichage de certaines parties de l'interface utilisateur en fonction des autorisations de l'utilisateur : seul l'administrateur peut effectuer la suppression , la modification et l'ajout des patients.
+         
+         - Le fichier patient.html :
+           
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/e9f51d6f-8885-4e03-8767-05f8f95d0522)
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3a8d9449-e7dd-4a10-b978-be17c1acdb37)
+
+
+         - Le fichier template.html :
+           
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d93cf229-8be6-450d-830a-92671488cb04)
+           
+         - L'affichage : 
+
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3d804a79-7b1d-4cd8-a8c5-097ae1943c2f)
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/f79e2b35-7434-4fe4-9c98-06a0694e9c62)
+
+      - Gèrer les requêtes à l'URL /notAuthorized en renvoyant une page d'erreur :
+         - La classe SecurityController.java :
+           
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/32a22140-2895-4591-8133-73568221ac3a)
+
+         - Le fichier notAuthorized.html :
+           
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/1a5cc185-266a-4ef4-ad1d-ccdd050f26f3)
+
+         - L'affichage  : Si j'authentifie en tant que user1 et que je saisis l'URL http://localhost:8084/admin/delete, la page notAuthorized s'affiche.
+           
+             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d68e145c-e507-4b84-a79b-8f6419587f1b)
+             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/bbb267f2-3397-4fb6-9d8f-59f93894c447)
+
+
+
+          
+   
+       
+
+       
+       
             
 
 

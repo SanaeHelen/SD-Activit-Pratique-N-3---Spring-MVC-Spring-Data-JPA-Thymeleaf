@@ -290,16 +290,25 @@ Partie 3 :
             
             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ead74d40-0bee-4f69-af85-43ac3a1233b7)
             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/a24e2e20-e10b-4037-89b2-bdd8dedde99d)
+     
        - L'utilisaton d'une formulaire d'authentification :
+         
             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2a4c5122-79e8-40ba-8cbf-b51fe5507c54)
+         
        - Configuration un gestionnaire d'utilisateurs en mémoire avec trois utilisateurs :
+         
             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/9093ff1d-b719-4061-9e08-04267ff8322b)
+         
        - Encoder les mots de passe des utilisateurs avant de les stocker:
+         
             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ef266f43-e0f8-45b9-bcad-e4cc5c1fa27e)
+         
        - Affichage :
+         
             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/60f5611c-3360-4071-9876-d00d01b09068)
-            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/591d07c9-ba77-470a-872d-06ef4d22db39)
-            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/012187d3-8002-435f-bdb0-0928a0ef3917)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/40efff75-fc34-4fd5-a8b2-5a733c3a9b61)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2cda5905-9671-427e-bf66-2114278f8d0a)
+
 
             
 

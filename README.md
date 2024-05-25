@@ -348,6 +348,28 @@ Partie 3 :
            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2ef56371-f95e-4fcb-a448-c16689be3e2f)
 
    - Gestion des droits d'accés :
+       - Le fichier SecurityConfig.java:
+         
+          - Autorisation :
+              Les URL commençant par /admin/ sont accessibles uniquement aux utilisateurs ayant le rôle ADMIN.
+              Les URL commençant par /user/ sont accessibles uniquement aux utilisateurs ayant le rôle USER.
+          - Gestion des exceptions :
+              En cas de tentative d'accès à une ressource non autorisée, l'utilisateur sera redirigé vers une page /notAuthorized.
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/26e3822c-ee7a-4336-aba7-2e098c05b6fd)
+
+       - Conditionner l'affichage de certaines parties de l'interface utilisateur en fonction des autorisations de l'utilisateur : seul l'administrateur peut effectuer la suppression , la modification et l'ajout des patients.
+         
+         - Le fichier patient.html :
+           
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/e9f51d6f-8885-4e03-8767-05f8f95d0522)
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3a8d9449-e7dd-4a10-b978-be17c1acdb37)
+
+
+         - Le fichier template.html :
+         - L'affichage : 
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d93cf229-8be6-450d-830a-92671488cb04)
+
+          
    
        
 

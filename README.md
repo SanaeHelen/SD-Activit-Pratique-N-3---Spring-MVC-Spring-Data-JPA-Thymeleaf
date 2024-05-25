@@ -391,20 +391,41 @@ Partie 3 :
 
 
 - Personnaliser le formulaire d'authentification:
+  
     - La classe SecurityConfig.java:
+      
         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/deff184e-60c5-4c74-a663-41b8933ef9b4)
 
     - L'ajout d'un endpoint dans la classe SecurityController.java:
+      
          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/483e5713-3555-4008-bf0b-1866810680a5)
 
     - Le fichier login.html:
+      
          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3abfedc4-203b-4157-a2d2-a84a9579e974)
 
     - L'affichage:
+      
          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/137551d5-a9e4-416e-a736-5cfd91c76f23)
          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/253ac5e8-1fc6-43b7-928b-690fcee5a2eb)
 
 
+- Utilisation des annottions pour proteger les methodes :
+    - La classe SecurityConfig.java:
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d508888e-a440-45c0-926d-7d2fb4a1ad65)
+
+
+    - La classe PatientController.java:
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3aa8b4f9-69de-43bf-973c-028cd89ddc00)
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/169fe7d2-2e6c-441c-bfde-cc80af1ab960)
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/114d1307-9e8a-49d9-8f0f-f509279108b4)
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/e7548933-d906-45d0-9af1-d81fc4b6fb01)
+     - Affichage :
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/8bb68034-a867-428e-87b3-d0b8afd954fc)
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/bbb267f2-3397-4fb6-9d8f-59f93894c447)
+
+
+- Stockage des utilisateurs dans la base de donneés: 
           
    
        

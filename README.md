@@ -390,6 +390,20 @@ Partie 3 :
              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/bbb267f2-3397-4fb6-9d8f-59f93894c447)
 
 
+- Personnaliser le formulaire d'authentification:
+    - La classe SecurityConfig.java:
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/deff184e-60c5-4c74-a663-41b8933ef9b4)
+
+    - L'ajout d'un endpoint dans la classe SecurityController.java:
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/483e5713-3555-4008-bf0b-1866810680a5)
+
+    - Le fichier login.html:
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3abfedc4-203b-4157-a2d2-a84a9579e974)
+
+    - L'affichage:
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/137551d5-a9e4-416e-a736-5cfd91c76f23)
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/253ac5e8-1fc6-43b7-928b-690fcee5a2eb)
+
 
           
    

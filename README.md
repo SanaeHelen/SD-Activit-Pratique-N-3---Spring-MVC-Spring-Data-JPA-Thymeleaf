@@ -477,6 +477,15 @@ Partie 3 :
           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/96ed1aea-8071-4c68-8a1b-cc51a6708988)
           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/86dab31b-e0be-414f-b143-21f8bfeb9f32)
 
+     - Test : Connexion en tant qu'utilisateur admin2:
+       
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/64aee2b0-b85e-49af-b456-a38021fede9d)
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/26670427-ea3d-4ade-ad44-d20ad26c6486)
+
+
+       
+       
+          
 
        
          

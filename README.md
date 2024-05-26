@@ -456,7 +456,7 @@ Partie 3 :
          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/bda5da15-7bb1-42f9-8368-3a45422c473e)
 
 
-  -Insertion des utilisateurs dans l'application :
+  - Insertion des utilisateurs dans l'application : (On a supprimé le fichier data.sql)
      - Créer des utilisateurs avec des roles dans la classe HopitalApplication.java : La méthode configure un bean qui initialise trois utilisateurs (user11, user22, et admin2) dans la base de données si ces 
        utilisateurs n'existent pas déjà, avec des rôles et des mots de passe encodés.
        

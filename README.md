@@ -426,7 +426,24 @@ Partie 3 :
          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/bbb267f2-3397-4fb6-9d8f-59f93894c447)
 
 
-- Stockage des utilisateurs dans la base de donneés: 
+- Stockage des utilisateurs dans la base de donneés:
+     - La classe SecurityConfig.java : méthode pour la gestion des utilisateurs basée sur une base de données relationnelle
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/b3438fe6-dd9e-487c-b4e6-444c6da71eea)
+
+     - Le fichier schema.sql: le script SQL pour créer les tables users et authorities
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d7cfcf82-7361-4117-8284-a136e2649517)
+
+     - Le fichier data.sql: le script SQL pour créer les utilisateurs .
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/61b717ec-6866-415c-a46b-348a4da19cb6)
+
+     - Le fichier application.propreties :
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/0238d918-8e5f-4b71-b66d-c295e78da6ee)
+
+     - La base de donnees mysql :
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3f5b3a77-7561-410b-ae4f-f6acf9aa3d07)
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/bda5da15-7bb1-42f9-8368-3a45422c473e)
+
+
           
    
        

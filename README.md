@@ -390,6 +390,107 @@ Partie 3 :
              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/bbb267f2-3397-4fb6-9d8f-59f93894c447)
 
 
+- Personnaliser le formulaire d'authentification:
+  
+    - La classe SecurityConfig.java:
+      
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d467f4a7-4434-4cc3-ba6b-3368d916d9e1)
+
+
+    - L'ajout d'un endpoint dans la classe SecurityController.java:
+      
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/483e5713-3555-4008-bf0b-1866810680a5)
+
+    - Le fichier login.html:
+      
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3abfedc4-203b-4157-a2d2-a84a9579e974)
+
+    - L'affichage:
+      
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/137551d5-a9e4-416e-a736-5cfd91c76f23)
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/253ac5e8-1fc6-43b7-928b-690fcee5a2eb)
+
+
+- Utilisation des annottions pour proteger les methodes :
+  
+    - La classe SecurityConfig.java:
+      
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d508888e-a440-45c0-926d-7d2fb4a1ad65)
+
+
+    - La classe PatientController.java:
+      
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3aa8b4f9-69de-43bf-973c-028cd89ddc00)
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/169fe7d2-2e6c-441c-bfde-cc80af1ab960)
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/114d1307-9e8a-49d9-8f0f-f509279108b4)
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/e7548933-d906-45d0-9af1-d81fc4b6fb01)
+  
+     - Affichage :
+       
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/8bb68034-a867-428e-87b3-d0b8afd954fc)
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/bbb267f2-3397-4fb6-9d8f-59f93894c447)
+
+
+- Stockage des utilisateurs dans la base de donneés:
+  
+     - La classe SecurityConfig.java : méthode pour la gestion des utilisateurs basée sur une base de données relationnelle
+       
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/b3438fe6-dd9e-487c-b4e6-444c6da71eea)
+
+     - Le fichier schema.sql: le script SQL pour créer les tables users et authorities.
+       
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/fb58cd86-4baa-488d-84c9-0f60a4ff3d99)
+
+
+     - Le fichier data.sql: le script SQL pour créer les utilisateurs .
+       
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/61b717ec-6866-415c-a46b-348a4da19cb6)
+
+     - Le fichier application.propreties :
+       
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/0238d918-8e5f-4b71-b66d-c295e78da6ee)
+
+     - La base de données mysql :
+       
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3f5b3a77-7561-410b-ae4f-f6acf9aa3d07)
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/bda5da15-7bb1-42f9-8368-3a45422c473e)
+
+
+  - Insertion des utilisateurs dans l'application : (On a supprimé le fichier data.sql)
+     - Créer des utilisateurs avec des roles dans la classe HopitalApplication.java : La méthode configure un bean qui initialise trois utilisateurs (user11, user22, et admin2) dans la base de données si ces 
+       utilisateurs n'existent pas déjà, avec des rôles et des mots de passe encodés.
+       
+         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/e6459fb7-4e7b-40e1-984d-22eab22e4b6f)
+
+     - La base de données mysql :
+       
+         - La table users :
+           
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/56fb8788-4b17-4bb4-b376-7dbc74097847)
+
+         - La table authorities :
+           
+              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/6935bd6b-ebad-4ab0-b5b2-d901324df55f)
+
+     - Test : Connexion en tant qu'utilisateur user11:
+       
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/96ed1aea-8071-4c68-8a1b-cc51a6708988)
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/86dab31b-e0be-414f-b143-21f8bfeb9f32)
+
+     - Test : Connexion en tant qu'utilisateur admin2:
+       
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/64aee2b0-b85e-49af-b456-a38021fede9d)
+          ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/26670427-ea3d-4ade-ad44-d20ad26c6486)
+
+
+       
+       
+          
+
+       
+         
+     
+      
 
           
    

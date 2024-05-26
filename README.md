@@ -394,7 +394,8 @@ Partie 3 :
   
     - La classe SecurityConfig.java:
       
-        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/deff184e-60c5-4c74-a663-41b8933ef9b4)
+        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d467f4a7-4434-4cc3-ba6b-3368d916d9e1)
+
 
     - L'ajout d'un endpoint dans la classe SecurityController.java:
       

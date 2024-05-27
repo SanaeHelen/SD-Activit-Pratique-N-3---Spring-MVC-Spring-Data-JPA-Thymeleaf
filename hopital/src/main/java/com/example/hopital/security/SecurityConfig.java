@@ -1,5 +1,7 @@
 package com.example.hopital.security;
 
+import com.example.hopital.security.service.UserDetailsServiceImpl;
+import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.Customizer;
@@ -16,9 +18,12 @@ import javax.sql.DataSource;
 
 @Configuration
 @EnableWebSecurity
+@AllArgsConstructor
 public class SecurityConfig {
 
-    @Bean
+    private PasswordEncoder passwordEncoder;
+    private UserDetailsServiceImpl userDetailsServiceImpl;
+    //@Bean
     public JdbcUserDetailsManager jdbcUserDetailsManager(DataSource dataSource){
          return new JdbcUserDetailsManager(dataSource);
     }
@@ -44,6 +49,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(ar->ar.requestMatchers("/user/**").hasRole("USER"))
                 .authorizeHttpRequests(ar->ar.anyRequest().authenticated())
                 .exceptionHandling(ex -> ex.accessDeniedPage("/notAuthorized"))
+                .userDetailsService(userDetailsServiceImpl)
                 .build();
 
     }

@@ -1,8 +1,9 @@
 # SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf
 
+
 Partie 1 :
 
-Créer une application Web JEE basée sur Spring MVC, Thylemeaf et Spring Data JPA qui permet de gérer les patients.
+- Créer une application Web JEE basée sur Spring MVC, Thylemeaf et Spring Data JPA qui permet de gérer les patients.
  - Les dépendances :
  
    ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/fd628ae0-7a5a-444d-9d4b-1a4071ff9ce6)
@@ -33,9 +34,8 @@ Créer une application Web JEE basée sur Spring MVC, Thylemeaf et Spring Data J
 
 
 
-
-L'application doit permettre les fonctionnalités suivantes :
-- Afficher les patients:
+- L'application doit permettre les fonctionnalités suivantes :
+ - Afficher les patients:
    - Patient Controller:
      
         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/b76a8752-79e0-4722-b36a-5ca0c844169d)
@@ -225,7 +225,7 @@ Partie 2  :
 
 
       
--Faire la validation des formulaires: 
+- Faire la validation des formulaires: 
 
    - Ajout du dépendance Spring Boot Starter Validation:
      
@@ -275,7 +275,7 @@ Partie 2  :
 
 Partie 3 : 
 
- -Sécurité avec Spring security  : 
+ - Sécurité avec Spring security  : 
  
    - L'ajout du dépendance Spring Security :
      
@@ -333,7 +333,7 @@ Partie 3 :
              
             
 
-  - L'operation Logout :
+  - L'opération Logout :
       - L'ajout du formulaire de logout dans la page template :
         
            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/e2be2283-04b9-49ee-84ad-ed64bc63c2c8)

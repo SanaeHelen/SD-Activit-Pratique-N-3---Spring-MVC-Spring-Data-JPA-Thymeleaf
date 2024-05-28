@@ -4,27 +4,27 @@
 Partie 1 :
 
 - Créer une application Web JEE basée sur Spring MVC, Thylemeaf et Spring Data JPA qui permet de gérer les patients.
- - Les dépendances :
+  - Les dépendances :
  
    ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/fd628ae0-7a5a-444d-9d4b-1a4071ff9ce6)
    ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/abc78006-7e53-4c58-b9d3-1b6986402e63)
    
- - L'entité Patient:
+  - L'entité Patient:
    
    ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/28906a3d-ad38-404f-9395-0e6771acb8db)
 
- - L'interface PatientRepository :
+  - L'interface PatientRepository :
    
    ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/0f498838-2b8c-4b41-8f78-c5a74ae98b87)
 
- - La création des patients dans la classe HopitalApplication :
+  - La création des patients dans la classe HopitalApplication :
    
    ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/a19e5d53-3f71-41fe-865a-b0efdb94205c)
    ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/b2c16b84-98e2-460c-8f65-d6c553bd7789)
    ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/fd14b613-099a-489f-8f71-3455c0f07592)
    ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3b9d1213-abf8-47a2-96e0-d7159e041da4)
 
- - L'utilisation de H2 Database:
+  - L'utilisation de H2 Database:
    
    ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/644a99cd-c892-4e73-859c-0ecf0a561940)
    ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/90b1ae52-bc36-448b-a787-f377f58a7e6c)

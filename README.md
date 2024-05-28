@@ -527,7 +527,7 @@ Partie 3 :
                    ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d6d99f19-aced-475a-a897-31eb4c0c6242)
                 
        
-    - Dans la claase SecurityConfig.java on va spécifier le service de gestion des utilisateurs qui sera utilisé par Spring Security pour récupérer les informations des utilisateurs lors de l'authentification : userDetailsServiceImpl :
+    - Dans la classe SecurityConfig.java on va spécifier le service de gestion des utilisateurs qui sera utilisé par Spring Security pour récupérer les informations des utilisateurs lors de l'authentification : userDetailsServiceImpl :
       
       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/521e9a7e-c70d-46e1-9f5d-314f45c08a07)
 
@@ -547,7 +547,6 @@ Partie 3 :
       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ecba9359-c1e8-417e-9c3b-bbf990086443)
       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/0b566ff2-2464-46bc-ad45-92f5552dee85)
       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/32a99955-9a17-4b77-8d88-2926a486ffd7)
-      ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2a98c6eb-a33a-4214-a0e5-72f69555f9f9)
       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/4be7b6ea-e4b5-4f58-ae55-83f7a0bb8f3d)
 
       

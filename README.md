@@ -483,54 +483,72 @@ Partie 3 :
           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/26670427-ea3d-4ade-ad44-d20ad26c6486)
 
  - UserDetails Service:
-   - L'entite AppUser dans le package entities du package security :
-       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ccdd6d64-cf91-431e-af17-2a1b7d66441b)
+    - On a créé 3 packages dans le package security : entities, repo et service :
+               - Le package entities :
+              - L'entité AppUser :
+                   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ccdd6d64-cf91-431e-af17-2a1b7d66441b)
+              - L'entité Approle:
+                   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/72a6318d-c87a-464b-9b9d-6f0ff7bcb6d0)
+         - Le package repo :
+              - L'interface AppUserRepository :
+                   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/bc58d52b-9770-4f9e-ae2c-5e5de683e613)
+              - L'interface AppRoleRepository :
+                   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/c46c186b-a68c-4cb3-9e92-2458bb873811)
+         - Le package service :
+              - L'interface AccountService :
+                   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/f4d4e2ba-e906-4471-93e3-37e20cc1becd)
+              - La classe AccountServiceImpl :
+                   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/aff3a3f5-ef25-4304-9adc-15d4c6200960)
+                   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/01cb371f-5aa0-4801-a7f9-ae699e5ce913)
+                   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/634a52a0-37d3-4e08-9c68-690f359c644f)
+                   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/953726f3-8d32-459f-8246-74af3610d0da)
+                   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/02dc4683-2619-4aa7-af9a-b9e6c5703e3d)
+                   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/926829b8-b617-436b-9e33-61ffbd4e6cc0)
+              - La classe UserDetailsServiceImpl :
+                   ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d6d99f19-aced-475a-a897-31eb4c0c6242)
+       
+    - Dans la claase SecurityConfig.java on va spécifier le service de gestion des utilisateurs qui sera utilisé par Spring Security pour récupérer les informations des utilisateurs lors de l'authentification : userDetailsServiceImpl.
+             ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/521e9a7e-c70d-46e1-9f5d-314f45c08a07)
 
-   - L'entite AppRole dans le meme package :
-       ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/72a6318d-c87a-464b-9b9d-6f0ff7bcb6d0)
+    - Dans la classe HopitalApplication.java on a créé une méthode qui initialise les rôles et les utilisateurs en ajoutant de nouveaux rôles et utilisateurs à l'application, puis en assignant les rôles appropriés aux utilisateurs lorsque l'application démarre :
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3d7e7a26-ef5c-4f30-915c-585b5a31cc87)
+    - Les tables créées dans la base de données patientsdb mysql:
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/1f171591-36b0-46b7-8d0a-aef79ed61927)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ae781640-c9ca-40ff-bc5e-d6db66ee3c14)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/9a986a67-20c1-4544-980b-944d2e93dd10)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d75b1b18-db86-4990-b667-f8c790ea3a81)
 
-   - Le package repo :
-       - L'interface AppUserRepository :
-           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/bc58d52b-9770-4f9e-ae2c-5e5de683e613)
+    - Le teste : Connexion en tant que l'utilisateur "Sanae" et l'utiisateur "admin" :
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ecba9359-c1e8-417e-9c3b-bbf990086443)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/0b566ff2-2464-46bc-ad45-92f5552dee85)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/32a99955-9a17-4b77-8d88-2926a486ffd7)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2a98c6eb-a33a-4214-a0e5-72f69555f9f9)
+            ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/4be7b6ea-e4b5-4f58-ae55-83f7a0bb8f3d)
 
-       - L'interface AppRoleRepository :
-           ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/c46c186b-a68c-4cb3-9e92-2458bb873811)
-
-       - Le package service :
-            - L'interface AccountService :
-                 ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/f4d4e2ba-e906-4471-93e3-37e20cc1becd)
-
-            - La classe AccountServiceImpl :
-                 ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/aff3a3f5-ef25-4304-9adc-15d4c6200960)
-                 ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/01cb371f-5aa0-4801-a7f9-ae699e5ce913)
-                 ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/634a52a0-37d3-4e08-9c68-690f359c644f)
-                 ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/953726f3-8d32-459f-8246-74af3610d0da)
-                 ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/02dc4683-2619-4aa7-af9a-b9e6c5703e3d)
-                 ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/926829b8-b617-436b-9e33-61ffbd4e6cc0)
+      
 
 
 
-            - La classe UserDetailsServiceImpl :
-                 ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d6d99f19-aced-475a-a897-31eb4c0c6242)
-            - La classe SecurityConfig.java:
-                 ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/521e9a7e-c70d-46e1-9f5d-314f45c08a07)
 
-        - La classe HopitalApplication.java :
-                 ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/3d7e7a26-ef5c-4f30-915c-585b5a31cc87)
 
-        - La base de donnees :
-              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/1f171591-36b0-46b7-8d0a-aef79ed61927)
-              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ae781640-c9ca-40ff-bc5e-d6db66ee3c14)
-              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/9a986a67-20c1-4544-980b-944d2e93dd10)
-              ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d75b1b18-db86-4990-b667-f8c790ea3a81)
 
-          -  L'affichage :
-                ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/ecba9359-c1e8-417e-9c3b-bbf990086443)
-                ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/0b566ff2-2464-46bc-ad45-92f5552dee85)
-                ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/32a99955-9a17-4b77-8d88-2926a486ffd7)
-                ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2a98c6eb-a33a-4214-a0e5-72f69555f9f9)
-                ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/4be7b6ea-e4b5-4f58-ae55-83f7a0bb8f3d)
 
+   
+
+
+  
+       
+
+       
+
+ 
+            
+
+
+
+           
+          
+       
 
 
 

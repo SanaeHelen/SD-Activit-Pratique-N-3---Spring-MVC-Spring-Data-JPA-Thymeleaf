@@ -35,21 +35,22 @@ Partie 1 :
 
 
 - L'application doit permettre les fonctionnalités suivantes :
- - Afficher les patients:
-   - Patient Controller:
+  
+   - Afficher les patients:
+      - Patient Controller:
      
         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/b76a8752-79e0-4722-b36a-5ca0c844169d)
      
-   - Bootstrap dependency:
+      - Bootstrap dependency:
      
         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/17173380-3579-407a-8d59-e09e6c61d8c6)
   
-   - le fichier patients.html:
+      - le fichier patients.html:
      
         ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/2f3c1e8e-0eac-41f4-934f-160e3371444c)
 
 
-   - L'affichage :
+      - L'affichage :
      
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/57e93650-29d2-47bd-8fc2-00bac5c221ae)
 
@@ -58,9 +59,9 @@ Partie 1 :
       
     
     
-- Faire la pagination :
+  - Faire la pagination :
   
-   - La migration ver Mysql Database:
+     - La migration ver Mysql Database:
      
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/9642b5ee-0f54-4900-9de7-aa2289183fd8)
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/f8c55fe0-fdb4-4da1-b771-40ed50bf97fd)
@@ -68,15 +69,15 @@ Partie 1 :
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/57f84c95-7454-4f86-9fb3-252606d00118)
 
   
-   - La classe PatientContoller:
+     - La classe PatientContoller:
      
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/7b282cdd-a8e4-4fb5-832c-05c4fb3bc313)
      
-   - le fichier html :
+     - le fichier html :
      
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/d2d3ea2f-9a35-4b9f-ab1b-bf668f0a9bcf)
      
-   - L'affichage:
+     - L'affichage:
      
        ![image](https://github.com/SanaeHelen/SD-Activit-Pratique-N-3---Spring-MVC-Spring-Data-JPA-Thymeleaf/assets/136022070/97193154-414e-4a4c-99b2-54df91216928)
 
